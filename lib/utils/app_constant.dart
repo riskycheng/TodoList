@@ -1,6 +1,7 @@
 const double PADDING_TINY = 2.0;
 const double PADDING_VERY_SMALL = 4.0;
 const double PADDING_SMALL = 8.0;
+const double PADDING_NORMAL = 10.0;
 const double PADDING_MEDIUM = 16.0;
 const double PADDING_LARGE = 24.0;
 const double PADDING_VERY_LARGE = 32.0;
