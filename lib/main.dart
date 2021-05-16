@@ -7,12 +7,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          accentColor: Colors.orange,
-          primaryColor: const Color(0xFFDE4435),
-          visualDensity: VisualDensity.adaptivePlatformDensity,
-        ),
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        accentColor: Colors.orange,
+        primaryColor: const Color(0xFFDE4435),
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+      ),
       home: AboutUscreen(),
     );
   }
@@ -34,4 +34,3 @@ class MyAppHome extends StatelessWidget {
     );
   }
 }
-
